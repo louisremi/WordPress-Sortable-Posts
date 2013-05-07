@@ -1,0 +1,37 @@
+#the-list.sp-dragging .row-actions {
+	visibility: hidden !important;
+}
+
+td.column-sortable,
+th.column-sortable {
+	width: 10px;
+	padding: 4px 2px;
+}
+
+th.column-sortable {
+	text-align: center;
+	font-size: 1.7em;
+}
+
+td.column-sortable {
+	cursor: move;
+}
+
+.sp-sortable-handle {
+	display: block;
+	width: 10px;
+	height: 42px;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAI0lEQVQY02Po7+//f+zYsf8MOACTubk5A50BupuY0BVQ300AdQkNSULnhRAAAAAASUVORK5CYII=);
+}
+
+.sp-placeholder {
+	background-color: #F5F5F5;
+	outline: 1px dashed #BBB;
+}
+tr.sp-dragging {
+	border: 1px dashed #BBB;
+}
+
+.hide-children .is-child {
+	display: none;
+}
